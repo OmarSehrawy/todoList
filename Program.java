@@ -10,7 +10,7 @@ public class Program{
             status = s;
         }
     }
-    void main() {
+    public static void main(String[] args) {
         todo[] todos = new todo[0];
         while(true) {
             System.out.println("1- Create --- 2- Update --- 3- Delete");
